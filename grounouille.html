@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Page avec Image, Texte et Téléchargement</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      flex-direction: column;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+    }
+    img {
+      max-width: 300px;
+      height: auto;
+      margin-bottom: 20px;
+    }
+    .text {
+      margin-bottom: 20px;
+      font-size: 1.2em;
+      color: #333;
+    }
+    .download-button {
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    .download-button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+
+  <img src="ton-image.jpg" alt="Mon Image">
+  <div class="text">Voici une description de l'image.</div>
+  <a href="fichier-a-telecharger.pdf" download class="download-button">Télécharger le fichier</a>
+
+</body>
+</html>
